@@ -26,7 +26,7 @@ class ApplicationController < Sinatra::Base
     erb :about
   end
   
-  get '/answer' do
+  get '/answer.erb' do
     erb :answer
   end
   
@@ -676,13 +676,5 @@ class ApplicationController < Sinatra::Base
     @results=[welcome, restaurantName, descrip, img, url]
     erb :answer
   end
-
-end
-
-
-# end
-
-
-
 
 end
