@@ -523,7 +523,7 @@ class ApplicationController < Sinatra::Base
       
       
     elsif @user_ans == 314 
-      estaurantName="Sunda"
+      restaurantName="Sunda"
       welcome ="Thank you for taking our quiz, #{@user_name}. <br> <b> #{restaurantName}</a> </b> is the restaurant that will best accommodate your allergy!"
       descrip= "#{restaurantName} is a hip spot for creative Asian fusion fare, sushi & specialty cocktails in a chic modern space with plentiful gluten free and vegan options."
       img="https://sundachicago.com/wp-content/uploads/2014/02/Sunda-Sushi-Special-3-of-4.jpg"
