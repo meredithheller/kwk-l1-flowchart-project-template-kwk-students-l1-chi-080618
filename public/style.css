@@ -1,28 +1,28 @@
 
-/*body, html {height: 100%}*/
-/*body {*/
-/*  font-family: "Raleway", sans-serif;*/
-/*  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1611027/440/293/m2/fpc/wm0/vewvumgwg86pjoewadkqwf4ctkzujgmw6qppealmg2octsyb3aqgmkyq0eyfgirl-.jpg?1472673692&s=7ea5ff4c4f437afccfb9d10c9f24fae7");*/
-/*  min-height: 100%;*/
-/*  background-position: top;*/
-/*  background-size: cover;*/
-/*}*/
-
- /*body {*/
- /*   background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/1611027/440/293/m2/fpc/wm0/vewvumgwg86pjoewadkqwf4ctkzujgmw6qppealmg2octsyb3aqgmkyq0eyfgirl-.jpg?1472673692&s=7ea5ff4c4f437afccfb9d10c9f24fae7");*/
- /*   height: 100%; */
-    /*width: 100%;*/
- /*   background-position: center;*/
- /*   background-repeat: no-repeat;*/
- /*   background-size: cover;*/
- /* }*/
- 
  body {
    color: black;
  }
 
 #footer {
   text-align: center;
+}
+
+#homepagename {
+  text-align: center;
+  font-size: 80px;
+  color: black;
+}
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: "Raleway";
+  font-weight: bold;
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 80px;
 }
 
 .quiz {
@@ -61,5 +61,20 @@ alert {
     display: inline-block;
     font-size: 20px;
 }
+.background {
+  background-position: center;
+  background-size: cover;
+}
 
-
+.boxone {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: "Raleway";
+  font-weight: bold;
+  width: 500px;
+  height: 70px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+}
