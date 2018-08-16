@@ -24,3 +24,42 @@
 #footer {
   text-align: center;
 }
+
+.quiz {
+  font-family: "Trebuchet MS";
+  color: #363636;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(https://image.freepik.com/free-photo/table-top-with-background_1404-28.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#gif {
+  height:20%;
+  width:30%;
+}
+
+alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+}
+
+
+.closebtn:hover {
+    color: black;
+}
+
+.quizbutton {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
