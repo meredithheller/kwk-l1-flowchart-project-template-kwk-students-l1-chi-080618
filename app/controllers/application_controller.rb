@@ -59,7 +59,7 @@ class ApplicationController < Sinatra::Base
     elsif @user_ans == 311
       restaurantName="Duck Duck Goat"
       welcome ="Thank you for taking our quiz, #{@user_name}. <br> <b> #{restaurantName}</a> </b> is the restaurant that will best accommodate your allergy!"
-      descrip= "#{restaurantName} offers creative Chinese fare from celebrity chef Stephanie Izard served in buzzy, ornately decorated surrounds. It offers provides for shellfish-free and peanut-free menu items."
+      descrip= "#{restaurantName} offers creative Chinese fare from celebrity chef Stephanie Izard served in buzzy, ornately decorated surrounds. It offers shellfish-free and peanut-free menu items."
       img="http://breakfastgator.com/wp-content/uploads/2016/07/DDG-Interior-7-W.jpg"
       url="http://duckduckgoatchicago.com/"
     
@@ -156,7 +156,7 @@ class ApplicationController < Sinatra::Base
     elsif @user_ans == 161
       restaurantName="Aloha Poke"
       welcome ="Thank you for taking our quiz, #{@user_name}. <br> <b> #{restaurantName}</a> </b> is the restaurant that will best accommodate your allergy!"
-      descrip= "#{restaurantName} is Chicago’s poke pioneer. The intention is simple: pack fresh, fast and tasty bowls of quality raw ingredients. We have a mission to rethink fast food and we are here to provide a healthy meal that fuels the day.They have options for vegan, gluten-free, and nut-free meals."
+      descrip= "#{restaurantName} is Chicago’s poke pioneer. The intention is simple: pack fresh, fast and tasty bowls of quality raw ingredients. They have a mission to rethink fast food and are here to provide a healthy meal that fuels the day.They have options for vegan, gluten-free, and nut-free meals."
       img="https://cdn.vox-cdn.com/thumbor/LE4j3Jijweg7R1Nl_bRp87IJMzs=/0x0:1024x683/1200x800/filters:focal(357x271:519x433)/cdn.vox-cdn.com/uploads/chorus_image/image/59884101/AlohaPoke_29_1024x683.0.jpg"
       url="https://www.alohapokeco.com/"
       
