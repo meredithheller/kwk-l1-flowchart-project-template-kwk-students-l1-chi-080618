@@ -16,3 +16,11 @@
  /*   background-repeat: no-repeat;*/
  /*   background-size: cover;*/
  /* }*/
+ 
+ body {
+   color: black;
+ }
+
+#footer {
+  text-align: center;
+}
