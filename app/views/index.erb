@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Eat Safe Chicago</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+
+
+  <body>
+  
+    <div class="bgimg w3-display-container w3-text-black">
+      <div class="w3-display-middle w3-jumbo">
+        <p>eat.safe</p>
+      </div>
+      <div class="w3-display-topleft w3-container w3-xlarge">
+        <p><a onclick="document.getElementById('restaurants').style.display='block'" class="w3-button w3-black" href="quiz.erb" >quiz</a></p>
+        <p><a onclick="document.getElementById('resources').style.display='block'" class="w3-button w3-black" href="resources.erb">resources</a></p>
+      </div>
+      <div class="w3-display-bottomleft w3-container">
+        <p class="w3-xlarge">enjoy chicago's food, allergen and worry free</p>
+        <p class="w3-large">created by Meredith, Rowa, and Ananya</p>
+        
+      </div>
+    </div>
+    
+     <!--Quiz Page -->
+    <div id="restaurants" <a href="quiz.html">Quiz</a>>
+      <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-black w3-display-container">
+          <a href="quiz.erb"<span onclick="document.getElementById('quiz').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        </div>
+      </div>
+    </div>
+    
+     <!--Resource Page -->
+    <div id="resources" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom">
+        <div class="w3-container w3-black">
+          <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+          <h1>Contact</h1>
+       
+      </div>
+    </div>
+    
+    
+  </body>
+</html>
