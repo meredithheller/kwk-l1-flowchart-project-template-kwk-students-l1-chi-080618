@@ -37,7 +37,7 @@
   background-color: white;
   color: black;
   font-weight: bold;
-  font-family: "sans serif";
+  font-family: "Raleway";
   width: 500px;
   height: 100px;
   text-align: center;
@@ -63,15 +63,15 @@
   padding: 20px;
   margin: 10px;
   height: 140px;
-  width: 300px;
+  width: 305px;
   background: white;
   color: black;
-  font-size: 70px;
+  font-size: 75px;
   font-weight: bold;
   line-height: 1.3em;
-  border: 2px dashed black;
   border-radius: 10px;
-  font-weight: normal;
+  font-weight: bold;
+  font-family: "Raleway";
 }
 
 
@@ -194,7 +194,7 @@ alert {
   text-align: center;
   font-size: 33px;
   padding: 20px;
-  font: "Raleway";
+  font-family: "Raleway";
   border-radius: 5px;
 }
  
@@ -228,4 +228,11 @@ alert {
 /* When moving the mouse over the close button */
 .closebtn:hover {
     color: black;
+}
+.imageabout {
+  position: absolute;
+  top: 30px;
+  right: 220px;
+  height: 50%;
+  width: 37%;
 }
