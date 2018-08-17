@@ -1,3 +1,11 @@
+#theimage{
+  /*position: absolute;*/
+  /*top: 0px;*/
+  /*right: 0px;*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
 
  body {
    color: black;
@@ -167,6 +175,7 @@ alert {
   background-color: white;
   color: black;
   font-family: "Raleway";
+  font-size: 15px;
   margin: 40px;
   width: 1000px;
   height: 150px;
