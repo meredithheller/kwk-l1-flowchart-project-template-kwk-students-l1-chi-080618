@@ -1,31 +1,32 @@
 
  body {
    color: black;
+
  }
 
 #footer {
   text-align: center;
 }
 
-#header_out{
+/*#header_out{*/
   /*border: 5px solid red;*/
   /*background-color: purple;*/
-}
+/*}*/
 
-#header_eat {
-  background-color: gray;
-  text-align: center;
-  font-size: 80px;
-  color: black;
-  background-color: white;
-  width: 500px;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 0 0 0 0;
-}
+/*#header_eat {*/
+/*  background-color: gray;*/
+/*  text-align: center;*/
+/*  font-size: 80px;*/
+/*  color: black;*/
+/*  background-color: white;*/
+/*  width: 500px;*/
+/*  border-radius: 5px;*/
+  /*padding: 10px;*/
+/*  margin: 0 0 0 0;*/
+/*}*/
 
-html {
- background: url("https://images.pexels.com/photos/326278/pexels-photo-326278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat center center fixed;
+#resource {
+ background: <img url("texture-4500x3000-4k-5k-wallpaper-8k-wood-background-6199.jpg")> no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -46,29 +47,32 @@ html {
 }
 
 #about {
- color: white;
- font-family: "trebuchet ms";
+ color: black;
+ font-family: "Raleway";
  }
 
 #mission {
-  color: white;
-  font-family: "trebuchet ms";
+  color: black;
+  font-family: "Raleway";
 }
 
 
 
 
-/*#homepagename:after {*/
-/*  content: dotted 5px black;*/
-/*  text-align: center;*/
-/*  font-size: 80px;*/
-/*  color: black;*/
-/*  background-color: black;*/
-/*  border: blue;*/
-/*  width: 500px;*/
-/*  border-radius: 5px;*/
-  /*padding: 10px;*/
-/*}*/
+.homepagename {
+  padding: 20px;
+  margin: 10px;
+  height: 140px;
+  width: 300px;
+  background: white;
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 1.3em;
+  border: 2px dashed black;
+  border-radius: 10px;
+  font-weight: normal;
+}
 
 
 
@@ -87,7 +91,7 @@ html {
 }
 
 .quiz {
-  font-family: "Trebuchet MS";
+  font-family: "Raleway";
   color: #363636;
   font-weight: bold;
   text-align: center;
@@ -123,6 +127,7 @@ alert {
     font-size: 20px;
 }
 .background {
+  <img src="texture-4500x3000-4k-5k-wallpaper-8k-wood-background-6199.jpg">
   background-position: center;
   background-size: cover;
 }
@@ -139,4 +144,88 @@ alert {
   font-size: 15px;
   line-height: 9px;
   border-radius: 5px;
+}
+
+.buttontwo {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: "Raleway";
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 80px;
+  border-radius: 5px;
+}
+.boxthree {
+  background-color: white;
+  color: black;
+  font-family: "Raleway";
+  margin: 40px;
+  width: 1000px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.boxfour {
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  font-family: "Raleway";
+  margin: 40px;
+  width: 1100px;
+  height: 225px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.popupbox {
+  Width:600px;
+  height:230px;
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-size: 33px;
+  padding: 20px;
+  font: "Raleway";
+  border-radius: 5px;
+}
+ 
+.black {
+	background:black;
+	font: "Raleway";
+}
+
+.quizbuttontwo {
+    background-color: white;
+    color: black;
+    height: 80px;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font: "Raleway";
+}
+
+.closebtn {
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 50px;
+    line-height: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
 }
