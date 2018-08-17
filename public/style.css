@@ -26,7 +26,7 @@
 /*}*/
 
 #resource {
- background: <img url("texture-4500x3000-4k-5k-wallpaper-8k-wood-background-6199.jpg")> no-repeat center center fixed;
+ background: url("texture-4500x3000-4k-5k-wallpaper-8k-wood-background-6199.jpg") no-repeat center center fixed;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
